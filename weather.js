@@ -23,7 +23,7 @@ document.querySelector(".wind"). innerHTML= data.wind.speed + "km/hr";
 
 
 
-if (data.weather[0].main == "clouds")  
+ /*if (data.weather[0].main == "clouds")  
     {weatherIcon.src="Assets/cloud.png";
 }
 
@@ -41,9 +41,9 @@ else if (data.weather[0].main == "mist")
 }
 
 else if (data.weather[0].main == "drizzle")
-{weatherIcon.src="Assets/drizzling.png";
+{weatherIcon.src="Assets/drizzling.png"; 
 }
-
+*/
 document.querySelector(".weather").style.display="block";
 
 }
