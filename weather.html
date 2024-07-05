@@ -8,16 +8,55 @@
 </head>
 <body>
      
-<div class="weather app">
+<div class="weather-app">
      
  <div class="search">
-    <input type="text" placeholder="enter city name">  
-   <button> <img src="Assets/search.png" alt=""></button>   
+    <input type="text" class="" placeholder="enter city name">  
+    
+   <button> <img src="Assets/search.png" alt=""></button>  
+   </div> 
    
 <div class="weather">
-     <img src="Assets/rain.png" class="weather-icon" alt="">
-     <h1 class="temp">25°c</h1>
+     
+     <div>
+           <img src="Assets/raining.png" class="weather-icon" alt="">
+           
+           <div class="h1-h2"> 
+                <h1 class="temp">23°c</h1>
      <h2 class="city">New York</h2>
+                
+           </div>
+     
+          
+          <div class="row">
+               <div class="col">
+                    <img src="Assets/humiditylcon.png" alt="">    
+                    <div>
+                         <p class="humidity">50%</p>
+                         <p>Humidity</p>
+                    </div> 
+                    
+                    </div>
+                    
+                    <div class="col">
+                    <img src="Assets/windIcon.png" class="windimg" alt="">    
+                    <div>
+                         <p class="wind">Km/hr</p>
+                         <p>Wind Speed</p>
+                    </div> 
+                    
+                    </div>
+               
+          </div>
+     </div>
+     
+         
+          <div > 
+               
+               
+          </div>
+  
+     
      
      
      
@@ -25,5 +64,7 @@
    
  </div>
  
+ 
+ <script src="weather.js"></script>
 </body>
 </html>
