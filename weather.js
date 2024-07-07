@@ -44,7 +44,6 @@ else if (data.weather[0].main == "Drizzle")
 {weatherIcon.src="Assets/drizzling.png"; 
 }
 
-document.querySelector(".weather").style.display="block";
 
 }
 
